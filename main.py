@@ -63,27 +63,27 @@ def ddos():
 def print_red_centered_art():
     os.system("clear")
     art = '''
-  ██████▒▒  █▒▒   ███▒▒    ████▒▒█▒▒  █▒▒    ███▒▒   █████▒▒  ██▒▒      ██▒▒  █▒▒
-  █▒▒    █▒▒█▒▒  █▒▒  █▒▒ █▒▒    █▒▒ █▒▒    █▒▒  █▒▒ █▒▒   █▒▒█▒█▒▒    █▒█▒▒ █▒▒
-  █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒█▒▒    █▒▒    █▒▒█▒▒   █▒▒█▒▒█▒▒  █▒▒█▒▒ █▒▒
-  █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒█▒▒     █▒▒    █▒▒█▒▒   █▒▒█▒▒ █▒▒█▒▒ █▒▒ █▒▒
-  █████▒▒   █▒▒ █▒▒    █▒▒█▒▒    ██▒▒      █▒▒    █▒▒█▒▒   █▒▒█▒▒  █▒█▒▒ █▒▒ █▒▒
-  █▒▒    █▒▒█▒▒ █▒███▒▒█▒▒█▒▒    █▒█▒▒     █████▒▒█▒▒█▒███▒▒  █▒▒  ██▒▒  █▒▒ █▒▒
-  █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒█▒▒    █▒▒    █▒▒█▒▒█▒▒   █▒▒        █▒▒ █▒▒
-  █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒ █▒▒   █▒▒    █▒▒█▒▒ █▒▒  █▒▒        █▒▒ █▒▒
-  ██████▒▒  ██████▒▒   █▒▒ ████▒▒█▒▒  █▒▒  █▒▒    █▒▒█▒▒  █▒▒ █▒▒        █▒▒ █▒▒'''
+    ██████▒▒  █▒▒   ███▒▒    ████▒▒█▒▒  █▒▒    ███▒▒   █████▒▒  ██▒▒      ██▒▒ █▒▒
+    █▒▒    █▒▒█▒▒  █▒▒  █▒▒ █▒▒    █▒▒ █▒▒    █▒▒  █▒▒ █▒▒   █▒▒█▒█▒▒    █▒█▒▒ █▒▒
+    █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒█▒▒    █▒▒    █▒▒█▒▒   █▒▒█▒▒█▒▒  █▒▒█▒▒ █▒▒
+    █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒█▒▒     █▒▒    █▒▒█▒▒   █▒▒█▒▒ █▒▒█▒▒ █▒▒ █▒▒
+    █████▒▒   █▒▒ █▒▒    █▒▒█▒▒    ██▒▒      █▒▒    █▒▒█▒▒   █▒▒█▒▒  █▒█▒▒ █▒▒ █▒▒
+    █▒▒    █▒▒█▒▒ █▒███▒▒█▒▒█▒▒    █▒█▒▒     █████▒▒█▒▒█▒███▒▒  █▒▒  ██▒▒  █▒▒ █▒▒
+    █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒█▒▒    █▒▒    █▒▒█▒▒█▒▒   █▒▒        █▒▒ █▒▒
+    █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒ █▒▒   █▒▒    █▒▒█▒▒ █▒▒  █▒▒        █▒▒ █▒▒
+    ██████▒▒  ██████▒▒   █▒▒ ████▒▒█▒▒  █▒▒  █▒▒    █▒▒█▒▒  █▒▒ █▒▒        █▒▒ █▒▒'''
     red_art = f"{Fore.GREEN}{art}{Style.RESET_ALL}"  # Set the text color to red
     print(red_art.center(80))  # Adjust the width (80 characters) to match your terminal size
     #red_art2 = f"{Fore.RED}{art2}{Style.RESET_ALL}"
     red_art2 = f"{Fore.YELLOW}{Style.RESET_ALL}"
     print((80))
-    print(Fore.YELLOW + Style.BRIGHT + "[KING's dedication and struggle for PALESTINE]")
+    print(Fore.GREEN + Style.BRIGHT + "[GLORI TO PALESTINE, GLORI TO AL - AQSHA]")
 if __name__ == "__main__":
     print_red_centered_art()
 def menu():
    # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
-    print(Fore.WHITE + Style.BRIGHT + "════════════════════════════════════════════════════════════════════════════════════════════════════════════════ ")
+    print(Fore.WHITE + Style.BRIGHT + "═══════════════════════════════════════════════════════════════════════════════════════════════ ")
     print(Fore.YELLOW + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
     print(Fore.BLUE + Style.BRIGHT + "1. DDos a website.  [1]")
     print(Fore.WHITE + Style.BRIGHT + "2. exit.            [2]")
